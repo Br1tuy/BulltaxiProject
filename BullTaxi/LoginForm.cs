@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
-namespace Taxi
+namespace BullTaxi
 {
     public partial class LoginForm : Form
     {
@@ -17,75 +18,92 @@ namespace Taxi
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-
-        }
-
-        private void PassField_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void LoginForm_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-
-        }
-
-
-
-        private void buttonLogin_Click(object sender, EventArgs e)
-        {
-            String LoginUser = LoginField.Text;
-            String PassUser = PassField.Text;
-        }
-
-        private void LoginField_TextChanged_1(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void LoginField_TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void closebtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
 
         private void label1_Click_1(object sender, EventArgs e)
         {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+            button1.AutoSize = true;
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1(object sender, EventArgs e)
+        {
+           
+            panel3.BackColor = Color.White;
+            panel4.BackColor = SystemColors.Control;
+            textBox2.BackColor = SystemColors.Control;
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox3(object sender, MouseEventArgs e)
+        {
 
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             
-
         }
 
-        private void PassField_TextChanged_1(object sender, EventArgs e)
+        private void pictureBox5(object sender, MouseEventArgs e)
         {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-
+            
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
 
         }
     }
