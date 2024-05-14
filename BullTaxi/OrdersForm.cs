@@ -1,5 +1,4 @@
-﻿using MainFormBullTaxi;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,26 +10,25 @@ using System.Windows.Forms;
 
 namespace BullTaxi
 {
-    public partial class AddNewUserForm : Form
+    public partial class OrdersForm : Form
     {
-        public AddNewUserForm()
+        public OrdersForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void closebtn_Click(object sender, EventArgs e)
+        private void OrdersForm_Load(object sender, EventArgs e)
         {
-            
-            this.Close();
-            BullTaxiMainForm BullTaxiMainForm = new BullTaxiMainForm();
-            /*
-            BullTaxiMainForm.Show();
-            */
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
